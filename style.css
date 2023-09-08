@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+}
+#menucabecalho{
+    background-image: url(imagens/cabeçalhotitulo.svg);
+    padding: 30px;
+}
+
+#tituloprincipal{
+    margin-top: 180px;
+    color: white;
+    margin-left: 50px;
+    font-family: "inter";
+}
+
+#subtitulo{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-family: "inter";
+    color: white;
+    margin-top: 20px;
+}
+
+#infosempresa{
+    height:214.5px;
+}
+
+#titulo1{
+    font-family: "inter";
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 300px;
+    color: black;
+}
+
+#titulo2{
+    font-family: "inter";
+    font-weight: 500;
+    margin-left: 60px;
+    margin-bottom: 200px;
+    color: black;
+    font-size: larger;
+}
+
+#menuimagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#imagemprojeto{
+    margin-bottom: 80px ;
+    margin-top: 80px ;
+    width: 510px;
+    height: 605px;
+    left: 876px;
+    margin: 50px 50px 50px 50px;
+    cursor: pointer;
+}
+
+#imagemprojeto:hover{
+    transform: translateX(5px);
+    transition-duration: 1s;
+}
+
+#formulario{
+    text-align: center;
+    font-size: 15px;
+    font-family: "inter";
+    background-color: #303030
+}
+
+#tituloformulario{
+    font-size: 25px;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+input{
+    margin: 15px;
+    width: 280px;
+    height: 40px;
+    border-radius: 7px;
+    border: 0px;
+    padding-left: 10px;
+}
+
+button{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 160px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #C07212;
+    font-family:"inter";
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    font-weight: bolder;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0px 15px 20px #7a430041 ;
+}
